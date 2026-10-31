@@ -25,5 +25,5 @@ const appointmentSchema = new mongoose.Schema(
   { timestamps: true } // Automatically adds createdAt and updatedAt fields
 );
 
-const Appointment =  mongoose.model('Appointment', appointmentSchema);
-export {Appointment}
+const Appointment = mongoose.model('Appointment', appointmentSchema);
+export { Appointment }
